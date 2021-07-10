@@ -1,0 +1,60 @@
+body{
+  background-color: gray;
+}
+
+.narbaritems{
+  display: flex;
+  border: greenyellow;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+li{
+  border: 2px solid #1C6EA4;
+}
+
+
+
+
+
+
+
+
+.youtube{
+  max-width: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .youtube{
+    align-content: flex-start;
+    max-width: 130px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .youtube{
+    max-width: 100px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .youtube{
+  max-width: 80px;
+}
+}
+
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+  }
+  .clearfix { display: inline-block; }
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  
