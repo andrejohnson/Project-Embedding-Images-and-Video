@@ -37,30 +37,165 @@
     <link rel="stylesheet" href="style/style.css" />
     <title>youtube</title>
   </head>
-  <header class="navbar">
+  <header>
+    <nav>
     <img
       src="/images/youtube-logo-hd-8.png"
       alt="youtube logo"
-      class="youtube"
+      class="youtube-logo"
     />
-    <a href="#youtube"><h1 id="youtube">YouTube</h1></a>
-    <nav>
-      <ul class="narbaritems">
-        <li><input type="text" placeholder="Search.." /></li>
-        <li></li>
-        <li class="signin"><a href="#signin">sign in</a></li>
-      </ul>
+    <span id="youtube">YouTube</span>
+
+    <div class="search-bar">
+      <input class="search-input" type="text" placeholder="Search" />
+      <button class=" search-btn">
+        <img src="images/magnify.svg" alt="magnify" />
+      </button>
+    </div>
+    
+      <div class="nav-options">      
+        <button class="go-live">
+          <img src="images/video-plus.svg" alt="live stream" />
+        </button>
+        <button class="apps">
+          <img src="images/apps.svg" alt="youtube apps" />
+        </button>
+        <button class="user-option">
+          <img src="images/dots-vertical.svg" alt="user options" />
+        </button>
+        <button class="sign-btn">
+          <img src="images/account-circle.svg" alt="no user avatar" />
+          <span>SIGN IN</span>
+        </button>
     </nav>
   </header>
 
   <body>
     <!-- START HERE -->
+    <main>
+    <section class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/QynNpzqYt0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="vid-info">
 
-    <section class="video"></section>
+    </div>
 
-    <section class="vidList"></section>
+    </section>
 
-    <section class="vidinfo"></section>
+    <section class="side">
+      <aside>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+        <div >
+          <h3 >
+
+          </h3>
+          <div>
+          <img>
+          <span>
+
+          </span>
+        </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="description"></section>
 
     <section class="channelinfo"></section>
 
@@ -87,5 +222,6 @@
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear());
     </script>
+    </main>
   </body>
 </html>
