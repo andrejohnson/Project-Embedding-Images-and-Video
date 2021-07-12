@@ -12,6 +12,10 @@
 body{
   background-color: darkgrey;
 }
+ 
+header{
+  border: solid greenyellow;
+}
 
 nav{
   display: inline;
@@ -20,7 +24,7 @@ nav{
 
 .nav-options{
   display: inline;
-  border: greenyellow;
+  border: solid greenyellow;
   justify-self: flex-end;
  
 }
@@ -48,6 +52,33 @@ h1{
   float: left;
   max-width: 150px;
   border: solid chartreuse;
+}
+
+.video{
+  display: inline-block;
+  border: solid darkolivegreen;
+    
+}
+
+.description{
+  padding-top: 5px;
+  border: solid orangered;
+}
+
+.side{
+  display: flex;
+  flex-direction: column;
+  border: solid chartreuse;
+}
+
+.channel-info{
+  padding-top: 50px;
+  border: solid rgb(71, 103, 192);
+}
+
+.comments{
+  padding-top: 50px;
+  border: solid rgb(122, 14, 64);
 }
 
 @media screen and (max-width: 900px) {
